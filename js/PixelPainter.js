@@ -16,3 +16,8 @@
 
   let clearButton = new ClearButton(document.querySelectorAll(".gridDivs"), "Clear Grid");
   pixelPainter.appendChild(clearButton.element);
+
+  let colorInput = new ColorInput(colorPicker, "Save Color");
+  pixelPainter.appendChild(colorInput.element);
+
+  inputColors();

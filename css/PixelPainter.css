@@ -5,45 +5,45 @@ body {
   background-color: white;
 }
 #mainGrid {
-  float: left;
+  position: fixed;
 }
 #colorGrid {
   position: fixed;
   top: 25px;
-  right: 25px;
+  right: 50px;
 }
 #customGrid {
   position: fixed;
   top: 150px;
-  right: 25px;
+  right: 50px;
 }
 
 #clearBtn {
   background-color: indianred;
   font-size: 25px;
   position: fixed;
-  top: 300px;
-  right: 25px;
+  top: 350px;
+  right: 35px;
 }
 
 #colorInput {
   background-color: yellow;
   font-size: 14px;
   position: fixed;
-  top: 150px;
-  right: 150px;
+  top: 260px;
+  right: 25px;
 }
 
 #inputBtn {
   background-color: skyblue;
   position: fixed;
-  top: 175px;
-  right: 236px;
+  top: 300px;
+  right: 111px;
 }
 
 #savebtn {
   background-color: lime;
   position: fixed;
-  top: 175px;
-  right: 150px;
+  top: 300px;
+  right: 25px;
 }

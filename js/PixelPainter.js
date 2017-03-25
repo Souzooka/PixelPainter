@@ -25,6 +25,7 @@
   let customPaletteBox = new GridContainer(100, 100);
   let customPalette = new ColorPalette(customPaletteBox.element, "customPal");
   document.querySelector("#pixelPainter").appendChild(customPaletteBox.element);
-  paletteStyle(".customPal", ["white"]);
+  paletteStyle(".customPal", ["white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white"]);
 
   inputColors();
+  clearButton.clearGrid();

@@ -1,20 +1,21 @@
 @keyframes backColor {
-    from {background-color: lavender;}
+    from {background-color: #d4d4f7;}
     to {background-color: #ffb3b3;}
 }
 @keyframes textColor {
-    from {color: Indigo;}
-    to {color: Red;}
+    from {color: #191980;}
+    to {color: #cc0000;}
 }
 
 body {
   animation: backColor 5s linear 0s infinite alternate;
-  font-family: Georgia;
 
 }
 h1 {
   animation: textColor 5s linear 0s infinite alternate;
-  font-size: 50px;
+  font-family: Satisfy;
+  font-size: 100px;
+  height: 50px;
   text-align: center;
 }
 h6 {

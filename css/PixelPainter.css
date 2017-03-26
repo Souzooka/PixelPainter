@@ -4,8 +4,10 @@ body {
 .customPal {
   background-color: white;
 }
+button {
+  color: beige;
+}
 #mainGrid {
-  position: fixed;
 }
 #colorGrid {
   position: fixed;
@@ -19,7 +21,7 @@ body {
 }
 
 #clearBtn {
-  background-color: indianred;
+  background-color: red;
   font-size: 25px;
   position: fixed;
   top: 350px;
@@ -27,7 +29,7 @@ body {
 }
 
 #colorInput {
-  background-color: yellow;
+  background-color: beige;
   font-size: 14px;
   position: fixed;
   top: 260px;

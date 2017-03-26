@@ -1,7 +1,7 @@
   let pixelPainter = document.querySelector("#pixelPainter");
 
-  let gridContainer = new GridContainer(1000, 1000);
-  let grid = new Grid(100, 100, gridContainer.element);
+  let gridContainer = new GridContainer(500, 500);
+  let grid = new Grid(10, 10, gridContainer.element);
   gridContainer.element.id = "mainGrid";
   let gridFuncs = gridFunctions();
 
@@ -15,7 +15,7 @@
 
   paletteStyle(".colorDivs");
 
-  gridFuncs.style();
+  gridFuncs.style(".gridDivs", grid.container.style.width, grid.container.style.height, grid.xDimensions, grid.yDimensions);
 
   let clearButton = new ClearButton(document.querySelectorAll(".gridDivs"), "Clear Grid");
   pixelPainter.appendChild(clearButton.element);
@@ -32,3 +32,6 @@
 
   inputColors();
   clearButton.clearGrid();
+
+  let resizeGrid = new ResizeGrid();
+  pixelPainter.appendChild(resizeGrid.element);

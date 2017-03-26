@@ -1,7 +1,7 @@
   let pixelPainter = document.querySelector("#pixelPainter");
 
-  let gridContainer = new GridContainer(700, 700);
-  let grid = new Grid(20, 20, gridContainer.element);
+  let gridContainer = new GridContainer(500, 500);
+  let grid = new Grid(10, 10, gridContainer.element);
   gridContainer.element.id = "mainGrid";
   let gridFuncs = gridFunctions();
 

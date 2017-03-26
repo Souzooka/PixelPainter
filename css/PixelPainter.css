@@ -24,7 +24,7 @@ button {
   background-color: red;
   font-size: 25px;
   position: fixed;
-  top: 350px;
+  top: 360px;
   right: 35px;
 }
 
@@ -48,4 +48,11 @@ button {
   position: fixed;
   top: 300px;
   right: 25px;
+}
+
+#clearCustomBtn {
+  background-color: orange;
+  position: fixed;
+  top: 330px;
+  right: 23px;
 }

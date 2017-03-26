@@ -5,9 +5,14 @@ body {
   background-color: white;
 }
 button {
-  color: beige;
+  background-color: beige;
+  color: indianred;
+  font-size: 10px;
 }
-#mainGrid {
+input {
+  background-color: beige;
+  color: indianred;
+  font-size: 14px;
 }
 #colorGrid {
   position: fixed;
@@ -21,7 +26,6 @@ button {
 }
 
 #clearBtn {
-  background-color: red;
   font-size: 25px;
   position: fixed;
   top: 360px;
@@ -29,30 +33,55 @@ button {
 }
 
 #colorInput {
-  background-color: beige;
-  font-size: 14px;
   position: fixed;
   top: 260px;
   right: 25px;
 }
 
 #inputBtn {
-  background-color: skyblue;
   position: fixed;
   top: 300px;
   right: 111px;
 }
 
 #savebtn {
-  background-color: lime;
   position: fixed;
   top: 300px;
   right: 25px;
 }
 
 #clearCustomBtn {
-  background-color: orange;
   position: fixed;
   top: 330px;
+  right: 23px;
+}
+
+#custXinput {
+  position: fixed;
+  top: 410px;
+  right: 23px;
+}
+
+#custYinput {
+  position: fixed;
+  top: 440px;
+  right: 23px;
+}
+
+#custRowinput {
+  position: fixed;
+  top: 470px;
+  right: 23px;
+}
+
+#custColinput {
+  position: fixed;
+  top: 500px;
+  right: 23px;
+}
+
+#resizeBtn {
+  position: fixed;
+  top: 530px;
   right: 23px;
 }

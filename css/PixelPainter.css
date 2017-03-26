@@ -1,0 +1,51 @@
+body {
+  background-color: SlateGrey;
+}
+.customPal {
+  background-color: white;
+}
+button {
+  color: beige;
+}
+#mainGrid {
+}
+#colorGrid {
+  position: fixed;
+  top: 25px;
+  right: 50px;
+}
+#customGrid {
+  position: fixed;
+  top: 150px;
+  right: 50px;
+}
+
+#clearBtn {
+  background-color: red;
+  font-size: 25px;
+  position: fixed;
+  top: 350px;
+  right: 35px;
+}
+
+#colorInput {
+  background-color: beige;
+  font-size: 14px;
+  position: fixed;
+  top: 260px;
+  right: 25px;
+}
+
+#inputBtn {
+  background-color: skyblue;
+  position: fixed;
+  top: 300px;
+  right: 111px;
+}
+
+#savebtn {
+  background-color: lime;
+  position: fixed;
+  top: 300px;
+  right: 25px;
+}

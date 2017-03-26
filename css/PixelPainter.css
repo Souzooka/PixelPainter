@@ -1,5 +1,12 @@
 body {
-  background-color: SlateGrey;
+  background-color: lavender;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#mainGrid {
+  margin: auto;
 }
 .customPal {
   background-color: white;
@@ -82,6 +89,7 @@ input {
 
 #resizeBtn {
   position: fixed;
+  font-size: 12px;
   top: 530px;
-  right: 23px;
+  right: 14px;
 }

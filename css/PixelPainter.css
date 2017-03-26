@@ -1,5 +1,7 @@
 body {
   background-color: lavender;
+  font-family: Georgia;
+
 }
 h1 {
   color: #5900b3;
@@ -21,8 +23,13 @@ h6 {
 
 button {
   background-color: beige;
+  border-radius: 12px;
   color: indianred;
   font-size: 10px;
+}
+
+button:hover {
+  background-color: tan;
 }
 input {
   background-color: beige;

@@ -6,6 +6,10 @@ h1 {
   font-size: 50px;
   text-align: center;
 }
+h6 {
+  color: #5900b3;
+  text-align: center;
+}
 #mainGrid {
   margin: auto;
   border: 2px solid black;

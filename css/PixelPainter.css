@@ -9,6 +9,9 @@
 @keyframes pixelHighlight {
   to {background-color: #B8B8B8;}
 }
+@keyframes colorHighlight {
+  to {background-color: white;}
+}
 
 body {
   animation: backColor 5s linear 0s infinite alternate;
@@ -40,6 +43,9 @@ input {
 }
 .customPal {
   background-color: white;
+}
+.customPal:hover, .colorDivs:hover {
+  animation: colorHighlight 0.5s ease-in 0s infinite reverse
 }
 .gridDivs:hover {
   animation: pixelHighlight 0.5s linear 0s infinite alternate
